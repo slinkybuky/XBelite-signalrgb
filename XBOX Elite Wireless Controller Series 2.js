@@ -17,7 +17,7 @@ export function ProductId() {
 }
 
 export function ImageUrl() {
-    return "https://raw.githubusercontent.com/slinkybuky/XBOXelite-signalrgb/main/icons/XBOX_Elite_Wireless_Controller_Series_2.png";
+    return "https://raw.githubusercontent.com/slinkybuky/XBOXelite-signalrgb/main/XBOX_Elite_Wireless_Controller_Series_2.png";
 }
 
 export function Type() {
