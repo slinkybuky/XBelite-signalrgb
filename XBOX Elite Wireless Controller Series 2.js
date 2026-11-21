@@ -61,3 +61,11 @@ export function Render() {
         color[0], color[1], color[2]
     ]);
 }
+
+export function Shutdown() {
+    SendPacket([
+        0x0e, 0x00, 0x03, 0x05,
+        0x01, 0x00,
+        0x00, 0x00, 0x00
+    ]);
+}
