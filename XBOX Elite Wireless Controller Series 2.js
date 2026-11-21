@@ -16,6 +16,10 @@ export function ProductId() {
     return 0x0b00;
 }
 
+export function DeviceType() {
+    return "Controller";
+}
+
 export function ImageUrl() {
     return "https://raw.githubusercontent.com/slinkybuky/XBelite-signalrgb/main/XBOX_Elite_Wireless_Controller_Series_2.png";
 }
